@@ -647,6 +647,32 @@ How it Work Section
     color: var(--black-400);
     margin: 0;
 }
+/*------------------
+-----------------*/
+.contactus{
+    background-color: var(--main-color);
+}
+
+.contactus .icon {
+    height: 60px;
+    text-align: center;
+    margin: 0 auto 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.contactus .icon i {
+    font-size: 70px;
+    line-height: 60px;
+    color: #ffffff;
+    z-index: 1;
+}
+.contactus .section-title h2,
+.footer .section-title h2{
+    color: #ffffff;
+    font-size: 30px;
+}
+
 /*---------------------
 Footer Section
 -----------------------*/
@@ -659,10 +685,6 @@ Footer Section
     font-size: 70px;
     color: #ffffff;
     display: inline-block;
-}
-.footer .section-title h2{
-    color: #ffffff;
-    font-size: 30px;
 }
 
 .footer .copyright-text {
